@@ -1,0 +1,97 @@
+aid: climavision
+name: Climavision
+description: >-
+  Climavision is a Louisville, Kentucky weather intelligence company that
+  combines a proprietary nationwide supplemental network of low-altitude
+  X-band, dual-polarization gap-filling weather radars with AI-driven
+  numerical weather prediction (NWP) to deliver enterprise-grade forecasts
+  and observational data. Its Horizon AI product line includes Horizon
+  Point for site-specific forecasts, Horizon Global for ground-to-high-
+  altitude global models, Horizon HI-RES for custom high-resolution local
+  forecasting, and Horizon S2S for subseasonal-to-seasonal prediction.
+  Climavision exposes a Weather API hosted at point-forecast-api.climavision.com
+  with 1,800+ parameters, 15-day forecasts, and bearer-token authentication,
+  plus a separate Radar Status API and Radar-as-a-Service offering that
+  supplies Level II files, NetCDF, and GeoTIFF radar data products
+  (reflectivity, velocity, dual-pol-derived QPE at 1km, precipitation type,
+  tornado debris detection) for coverage below 4,000 feet where NEXRAD
+  cannot see due to Earth curvature. The company integrates its radar feed
+  into MRMS and has provided supplemental data into the National Weather
+  Service's AWIPS software. Climavision processes 1.5+ billion datasets
+  daily, serves customers across agriculture, aviation, commodity trading,
+  drones and Advanced Air Mobility, energy and utilities, government,
+  insurance and reinsurance, media, and transportation and logistics, and
+  raised a $100 million strategic investment from TPG's Rise Fund. API
+  access is gated through a sales-led contact process; no public sandbox
+  or open-source SDKs are published, and the Climavision GitHub
+  organization (github.com/Climavision) currently has only two minor
+  public repositories (an archived Azure Table Storage helper and a
+  GeoServer Helm chart fork).
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Weather
+  - Weather Intelligence
+  - Forecasting
+  - Numerical Weather Prediction
+  - Weather Radar
+  - X-Band Radar
+  - Dual Polarization
+  - Gap-Filling Radar
+  - Radar as a Service
+  - AI Forecasting
+  - Horizon AI
+  - Renewable Energy
+  - Severe Weather
+  - Hurricane
+  - Aviation Weather
+  - Agriculture
+  - Energy
+  - Insurance
+url: https://raw.githubusercontent.com/api-evangelist/climavision/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://climavision.com
+  - type: About
+    url: https://climavision.com/about/
+  - type: Documentation
+    url: https://docs.climavision.com/
+  - type: APIAccess
+    url: https://docs.climavision.com/docs/access-to-apim-climavision
+  - type: WeatherAPI
+    url: https://climavision.com/weather-api/
+  - type: RadarStatusAPI
+    url: https://radardocs.climavision.com/
+  - type: RadarAsAService
+    url: https://climavision.com/radar-as-a-service/
+  - type: HorizonPoint
+    url: https://climavision.com/horizon-ai-point/
+  - type: HorizonGlobal
+    url: https://climavision.com/horizon-ai-global/
+  - type: HorizonHIRES
+    url: https://climavision.com/horizon-ai-hires/
+  - type: HorizonS2S
+    url: https://climavision.com/horizon-ai-subseasonal-and-seasonal/
+  - type: RenewableEnergy
+    url: https://climavision.com/renewable-energy-forecasting/
+  - type: Blog
+    url: https://climavision.com/blog/
+  - type: CaseStudies
+    url: https://climavision.com/resources/case-studies/
+  - type: Careers
+    url: https://climavision.com/careers/
+  - type: Contact
+    url: https://climavision.com/contact/
+  - type: GitHub
+    url: https://github.com/Climavision
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/climavision
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
