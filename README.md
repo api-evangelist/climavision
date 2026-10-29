@@ -1,4 +1,4 @@
-# climavision
+# Climavision
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Climavision — gap-filling X-band weather radar network + AI-driven forecasting (Horizon AI, Weather API, Radar-as-a-Service)
+Climavision is a Louisville, Kentucky weather intelligence company that combines a proprietary nationwide supplemental network of low-altitude X-band, dual-polarization gap-filling weather radars with AI-driven numerical weather prediction (NWP) to deliver enterprise-grade forecasts and observational data. Its Horizon AI product line includes Horizon Point for site-specific forecasts, Horizon Global for ground-to-high- altitude global models, Horizon HI-RES for custom high-resolution local forecasting, and Horizon S2S for subseasonal-to-seasonal prediction. Climavision exposes a Weather API hosted at point-forecast-api.climavision.com with 1,800+ parameters, 15-day forecasts, and bearer-token authentication, plus a separate Radar Status API and Radar-as-a-Service offering that supplies Level II files, NetCDF, and GeoTIFF radar data products (reflectivity, velocity, dual-pol-derived QPE at 1km, precipitation type, tornado debris detection) for coverage below 4,000 feet where NEXRAD cannot see due to Earth curvature. The company integrates its radar feed into MRMS and has provided supplemental data into the National Weather Service's AWIPS software. Climavision processes 1.5+ billion datasets daily, serves customers across agriculture, aviation, commodity trading, drones and Advanced Air Mobility, energy and utilities, government, insurance and reinsurance, media, and transportation and logistics, and raised a $100 million strategic investment from TPG's Rise Fund. API access is gated through a sales-led contact process; no public sandbox or open-source SDKs are published, and the Climavision GitHub organization (github.com/Climavision) currently has only two minor public repositories (an archived Azure Table Storage helper and a GeoServer Helm chart fork).
+
+**Areas:** Weather · Weather Intelligence · Forecasting · Numerical Weather Prediction · Weather Radar · X-Band Radar · Dual Polarization · Gap-Filling Radar · Radar as a Service · AI Forecasting · Horizon AI · Renewable Energy
+
+## Climavision on APIs.io
+
+Everything profiled for Climavision is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/climavision/](https://apis.io/providers/climavision/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Climavision Domain Security](https://apis.io/security/climavision/climavision-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://climavision.com)
+- [Documentation](https://docs.climavision.com/)
+- [Blog](https://climavision.com/blog/)
+
+## API Evangelist rating
+
+**Kin Score 5.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/climavision/](https://apis.io/providers/climavision/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Climavision: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/climavision/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
